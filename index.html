@@ -11,8 +11,10 @@
 <body>
     <header>
         <nav class="navbar">
-            <h2 class="navbar-heading">My Restaurant</h2>\
-            <button class="navbar-toggler"></button>
+            <h2 class="navbar-heading">My Restaurant</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
             <input type="search" id="search-input" name="Search" placeholder="Search..." onkeyup="searchInput()">
 
@@ -47,7 +49,10 @@
         </nav>
     </header>
 
-    <div class="content"></div>
+    <div class="content">
+        <h2 class="menu-heading">Our Menu</h2>
+        <div class="menu-dishes"></div>
+    </div>
 
 
 
