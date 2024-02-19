@@ -7,7 +7,46 @@
     <title>Restaurant Menu Card</title>
 </head>
 <body>
+    <header>
+        <nav class="navbar">
+            <h2 class="navbar-heading">My Restaurant</h2>\
+            <button class="navbar-toggler"></button>
+
+            <input type="search" id="search-input" name="Search" placeholder="Search..." onkeyup="searchInput()">
+
+            <ul class="nav-list">
+
+                <li class="nav-item">
+                  <a class="nav-link">
+                    <button id="all" class="close-menu">All</button>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-filter="starters">
+                    <button id="starters" class="close-menu">Starters</button>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-filter="mains">
+                    <button id="mains" class="close-menu">Mains</button>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-filter="desserts">
+                    <button id="desserts" class="close-menu">Desserts</button>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-filter="beverages">
+                    <button id="beverages" class="close-menu">Beverages</button>
+                  </a>
+                </li>
+              </ul>
+        </nav>
+    </header>
+
     <div class="content"></div>
+
 
 
     <script src="script.js"></script>
