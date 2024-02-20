@@ -29,10 +29,12 @@ header {
     align-items: center;
     gap: 10px;
     justify-content: center !important;
+    transition: 10s ease;
 }
 
 .navbar-heading {
     font-size: 38px;
+    margin-bottom: 0;
     /* font-family: "Marmelad", sans-serif !important; */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
     font-weight: 900;
@@ -40,9 +42,16 @@ header {
 
 }
 
-
 .navbar-toggler {
     display: none;
+    background-color: #fff !important;
+    border: 2px solid rgba(79, 78, 78, 0.65) !important;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 7px;
+    align-items: center;
 }
 
 #search-input {
@@ -60,10 +69,17 @@ header {
     gap: 5px;
     margin: 0;
     padding: 0;
+    align-items: center;
 }
 
 .nav-list li {
     list-style-type: none;
+}
+
+.separator {
+    display: none;
+    color: white;
+    font-size: 22px;
 }
 
 .nav-link button {
@@ -136,3 +152,5 @@ header {
 .card-text:last-child {
     font-weight: 500;
 }
+
+
