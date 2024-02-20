@@ -166,7 +166,6 @@ beverages.addEventListener("click", () => {
 });
 
 
-
 //navbar-toggler 
 let navbarToggler = document.querySelector(".navbar-toggler");
 
