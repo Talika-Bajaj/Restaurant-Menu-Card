@@ -21,7 +21,7 @@ let menuHeading = document.querySelector(".menu-heading");
 let menuDishes = document.querySelector(".menu-dishes");
 
 menu.forEach((item) => {
-  menuDishes.innerHTML += `<div class="menu-item col-12 col-md-6 col-lg-4"  style = "width: 21rem; box-shadow: 1px 0px 6px 6px #ddd;background-color: #ddd; cursor: pointer">
+  menuDishes.innerHTML += `<div class="menu-item col-12 col-md-6 col-lg-4"  style = "width: 19rem; box-shadow: 1px 0px 6px 6px #ddd;background-color: #ddd; cursor: pointer">
         <div class="card">
           <img src="${item.img}" class="card-img-top" alt="${item.title}" style = "height: 200px">
           <div class="card-body">
@@ -60,7 +60,7 @@ all.onclick = function () {
   menuHeading.innerHTML = "Our Menu";
   menuDishes.innerHTML = "";
   menu.forEach((item) => {
-    menuDishes.innerHTML += `<div class="menu-item col-12 col-md-6 col-lg-4"  style = "width: 21rem; box-shadow: 1px 0px 6px 6px #ddd;background-color: #ddd; cursor: pointer">
+    menuDishes.innerHTML += `<div class="menu-item col-12 col-md-6 col-lg-4"  style = "width: 19rem; box-shadow: 1px 0px 6px 6px #ddd;background-color: #ddd; cursor: pointer">
         <div class="card">
           <img src="${item.img}" class="card-img-top" alt="${item.title}" style="height: 200px">
             <div class="card-body">
@@ -82,7 +82,7 @@ starters.addEventListener("click", () => {
   menuHeading.innerHTML = "Starters";
   menuDishes.innerHTML = "";
   startersItems.forEach((item) => {
-    menuDishes.innerHTML += `<div class="menu-item col-12 col-md-6 col-lg-4"  style = "width: 21rem; box-shadow: 1px 0px 6px 6px #ddd;background-color: #ddd; cursor: pointer">
+    menuDishes.innerHTML += `<div class="menu-item col-12 col-md-6 col-lg-4"  style = "width: 19rem; box-shadow: 1px 0px 6px 6px #ddd;background-color: #ddd; cursor: pointer">
         <div class="card">
           <img src="${item.img}" class="card-img-top" alt="${item.title}" style="height: 200px">
             <div class="card-body">
@@ -105,7 +105,7 @@ mains.addEventListener("click", () => {
   menuHeading.innerHTML = "Mains";
   menuDishes.innerHTML = "";
   mainsItems.forEach((item) => {
-    menuDishes.innerHTML += `<div class="menu-item col-12 col-md-6 col-lg-4"  style = "width: 21rem; box-shadow: 1px 0px 6px 6px #ddd;background-color: #ddd; cursor: pointer">
+    menuDishes.innerHTML += `<div class="menu-item col-12 col-md-6 col-lg-4"  style = "width: 19rem; box-shadow: 1px 0px 6px 6px #ddd;background-color: #ddd; cursor: pointer">
          <div class="card">
            <img src="${item.img}" class="card-img-top" alt="${item.title}" style="height: 200px">
              <div class="card-body">
@@ -128,7 +128,7 @@ desserts.addEventListener("click", () => {
   menuHeading.innerHTML = "Desserts";
   menuDishes.innerHTML = "";
   dessertItems.forEach((item) => {
-    menuDishes.innerHTML += `<div class="menu-item col-12 col-md-6 col-lg-4"  style = "width: 21rem; box-shadow: 1px 0px 6px 6px #ddd;background-color: #ddd; cursor: pointer">
+    menuDishes.innerHTML += `<div class="menu-item col-12 col-md-6 col-lg-4"  style = "width: 19rem; box-shadow: 1px 0px 6px 6px #ddd;background-color: #ddd; cursor: pointer">
         <div class="card">
           <img src="${item.img}" class="card-img-top" alt="${item.title}" style="height: 200px">
             <div class="card-body">
@@ -151,7 +151,7 @@ beverages.addEventListener("click", () => {
   menuHeading.innerHTML = "Beverages";
   menuDishes.innerHTML = "";
   beverageItems.forEach((item) => {
-    menuDishes.innerHTML += `<div class="menu-item col-12 col-md-6 col-lg-4"  style = "width: 21rem; box-shadow: 1px 0px 6px 6px #ddd;background-color: #ddd; cursor: pointer">
+    menuDishes.innerHTML += `<div class="menu-item col-12 col-md-6 col-lg-4"  style = "width: 19rem; box-shadow: 1px 0px 6px 6px #ddd;background-color: #ddd; cursor: pointer">
          <div class="card">
            <img src="${item.img}" class="card-img-top" alt="${item.title}" style="height: 200px">
              <div class="card-body">
