@@ -164,3 +164,17 @@ beverages.addEventListener("click", () => {
            </div>`
   })
 });
+
+
+
+//navbar-toggler 
+let navbarToggler = document.querySelector(".navbar-toggler");
+
+navbarToggler.addEventListener("click", ()=> {
+  let navMenu = document.querySelector(".nav-menu");
+  if (navMenu.style.display === "flex") {
+    navMenu.style.display = "none";
+  } else {
+    navMenu.style.display = "flex";
+  }
+})
