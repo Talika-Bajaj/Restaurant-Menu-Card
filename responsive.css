@@ -6,6 +6,15 @@
     .nav-link button {
         font-size: 16px;
     }
+
+    .content {
+        padding: 40px 20px;
+    }
+
+    .menu-item {
+        width: 18rem !important;
+    }
+
 }
 
 @media screen and (max-width: 1060px) {
@@ -15,6 +24,10 @@
 
     .nav-link button {
         padding: 10px;
+    }
+
+    .menu-item {
+        width: 17rem !important;
     }
 }
 
@@ -71,11 +84,42 @@
         font-size: 21px;
     }
 
+    .menu-dishes {
+        grid-template-columns: auto auto; 
+    }
+
+    .menu-item {
+        width: 21rem !important;
+    }
+
+    .content {
+        padding: 40px 50px;
+    }
+
 }
+
+@media screen and (max-width: 850px) {
+    .menu-item {
+        width: 19.5rem !important;
+    }
+
+    .content {
+        padding: 40px 30px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .navbar-heading {
         font-size: 36px;
-    }        
+    }   
+    
+    .menu-item {
+        width: 18.5rem !important;
+    }
+
+    .content {
+        padding: 40px 20px;
+    }
 }
 
 @media screen and (max-width: 576px) {
