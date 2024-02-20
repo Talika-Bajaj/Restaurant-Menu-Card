@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&family=Kreon:wght@300..700&family=Marmelad&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Laila", serif !important;
+    font-style: normal;
+
+
 }
 
 :root {
@@ -9,7 +15,8 @@
 }
 
 body {
-    background-color: #f5f2f2;
+    /* background-color: #f5f2f2 !important; */
+    background-color: seagreen !important;
 }
 
 header {
@@ -20,13 +27,19 @@ header {
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-around !important;
+    gap: 10px;
+    justify-content: center !important;
 }
 
 .navbar-heading {
-    font-size: 36px;
-    font-weight: 700;
+    font-size: 38px;
+    /* font-family: "Marmelad", sans-serif !important; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    font-weight: 900;
+    /* font-family: "Kreon", serif !important; */
+
 }
+
 
 .navbar-toggler {
     display: none;
@@ -34,7 +47,8 @@ header {
 
 #search-input {
     padding: 8px 10px;
-    width: 45vw;
+    width: 35vw;
+    /* margin: 0 6px; */
     border-radius: 11px;
     height: 50px;
     font-size: 17px;
@@ -43,7 +57,7 @@ header {
 
 .nav-list {
     display: flex;
-    gap: 7px;
+    gap: 5px;
     margin: 0;
     padding: 0;
 }
@@ -60,6 +74,7 @@ header {
     color: white;
     transition: 0.4s;
     font-weight: 500;
+    border: 0;
 }
 
 .nav-link button:hover {
@@ -92,8 +107,32 @@ header {
 
 .menu-item {
     transition: 0.3s;
+    /* font-family: "Marmelad", sans-serif; */
+
 }
 
 .menu-item:hover {
     transform: scale(1.04);
+}
+
+.card-title {
+    color: teal !important;
+    font-weight: 700;
+    /* font-family: "Marmelad", sans-serif; */
+
+}
+
+.card-subtitle {
+    font-weight: 600;
+}
+
+.card-text {
+    color: firebrick !important;
+    font-weight: 400;
+    /* font-family: "Marmelad", sans-serif; */
+
+}
+
+.card-text:last-child {
+    font-weight: 500;
 }
