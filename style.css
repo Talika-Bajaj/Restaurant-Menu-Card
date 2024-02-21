@@ -1,3 +1,5 @@
+/* import fonts from google fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&family=Kreon:wght@300..700&family=Marmelad&display=swap');
 
 * {
@@ -6,24 +8,26 @@
     box-sizing: border-box;
     font-family: "Laila", serif !important;
     font-style: normal;
-
-
 }
 
 :root {
     --heading-color: rgb(33, 37, 41);
+    --body-color: #f5f2f2;
+    --header-bgcolor: lightcoral;
 }
 
+/* body */
 body {
-    /* background-color: #f5f2f2 !important; */
-    background-color: seagreen !important;
+    background-color: var(--body-color) !important;
 }
 
+/* header container */
 header {
     padding: 10px;
-    background-color: lightcoral;
+    background-color: var(--header-bgcolor);
 }
 
+/* navbar box */
 .navbar {
     display: flex;
     align-items: center;
@@ -35,25 +39,25 @@ header {
 .navbar-heading {
     font-size: 38px;
     margin-bottom: 0;
-    /* font-family: "Marmelad", sans-serif !important; */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
     font-weight: 900;
-    /* font-family: "Kreon", serif !important; */
-
 }
 
+/* navbar-toggler button */
 .navbar-toggler {
     display: none;
     background-color: #fff !important;
     border: 2px solid rgba(79, 78, 78, 0.65) !important;
 }
 
+/* nav-menu box */
 .nav-menu {
     display: flex;
     gap: 7px;
     align-items: center;
 }
 
+/* search-input field */
 #search-input {
     padding: 8px 10px;
     width: 35vw;
@@ -64,6 +68,7 @@ header {
     border: 2px solid #6c6a6a;
 }
 
+/* nav-list box */
 .nav-list {
     display: flex;
     gap: 5px;
@@ -98,7 +103,7 @@ header {
     color: rgb(33, 37, 41);
 }
 
-
+/* content container */
 .content {
     padding: 40px;
     max-width: 95vw;
@@ -107,12 +112,13 @@ header {
 
 .menu-heading {
     font-size: 45px;
+    /* text-decoration: underline; */
     padding: 0px 10px 3px 10px;
     width: 282px; 
     border-bottom: 3px solid var(--heading-color);
-    /* text-decoration: underline; */
 }
 
+/* menu-items box */
 .menu-dishes {
     padding: 40px 0;
     width: inherit;
@@ -124,8 +130,6 @@ header {
 
 .menu-item {
     transition: 0.3s;
-    /* font-family: "Marmelad", sans-serif; */
-
 }
 
 .menu-item:hover {
@@ -135,8 +139,6 @@ header {
 .card-title {
     color: teal !important;
     font-weight: 700;
-    /* font-family: "Marmelad", sans-serif; */
-
 }
 
 .card-subtitle {
@@ -146,12 +148,8 @@ header {
 .card-text {
     color: firebrick !important;
     font-weight: 400;
-    /* font-family: "Marmelad", sans-serif; */
-
 }
 
 .card-text:last-child {
     font-weight: 500;
 }
-
-
